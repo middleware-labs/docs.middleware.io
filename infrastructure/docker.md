@@ -7,7 +7,7 @@ This is applicable on both x86 & ARM based machines.
 
 ## Current Technical Approach
 
-In order to collect host level details, our docker agent works on host network mdde.
+In order to collect host level details, our docker agent works on host network mode.
 
 For log reading, the docker agent uses volume binding.
 

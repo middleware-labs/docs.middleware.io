@@ -1,6 +1,6 @@
 ## Supported Java Versions
 
-The Java APM should work well with php version above 8.0.
+The Java APM should work well with Java 8+ applications.
 You can check this with ...
 ```
 java --version

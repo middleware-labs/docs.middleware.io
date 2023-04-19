@@ -1,6 +1,8 @@
 ## Supported Python Versions
 
-The Python APM should work well with php version above 8.0.
+The Python APM should work well with Python 3.0 and higher.
+APM is also collecting expected data for Python 2.7, but we recommend to upgrade to Python 3.0 for more stability, if possible.
+
 You can check this with ...
 ```
 python --version

@@ -1,6 +1,6 @@
 ## Supported Golang Versions
 
-The Golang APM should work well with php version above 8.0.
+The Golang APM should work well with latest 2 Golang stable releases.
 You can check this with ...
 ```
 go version

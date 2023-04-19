@@ -1,13 +1,14 @@
 ## Supported Machines
 
-We have created docker distributions using, 
+We have created docker distributions using https://github.com/marketplace/actions/build-and-push-docker-images
+
 All the OS that supports docker should also support our docker based agent.
 
-This is applicable on both x86 & ARM based machines.
+This is applicable on both x86 & ARM based machines, as we are using multi-platform builds.
 
 ## Current Technical Approach
 
-In order to collect host level details, our docker agent works on host network mdde.
+In order to collect host level details, our docker agent works on host network mode.
 
 For log reading, the docker agent uses volume binding.
 
