@@ -1,4 +1,4 @@
-Configure CloudWatch using the AWS Console :
+Configure CloudWatch using the AWS Console with following steps :
 
 # Step 1 : Create a new Kinesis Data Firehose Delivery Stream
 
