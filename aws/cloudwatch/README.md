@@ -1,6 +1,4 @@
-Configure CloudWatch using the AWS Console with following steps :
-
-# Step 1 : Create a new Kinesis Data Firehose Delivery Stream
+### Step 1 : Create a new Kinesis Data Firehose Delivery Stream
 
 1. Sign in to the AWS Management Console and open the Kinesis console at [https://console.aws.amazon.com/kinesis](https://console.aws.amazon.com/kinesis).
 2. Choose <b>Data Firehose</b> in the navigation panel.
@@ -11,7 +9,7 @@ Configure CloudWatch using the AWS Console with following steps :
 5. In the Backup settings, select an S3 backup bucket to receive any failed events that exceed the retry duration.
 
 
-## Step 2 : Create a new CloudWatch Metric Stream
+### Step 2 : Create a new CloudWatch Metric Stream
 
 1. Open the CloudWatch AWS console at [https://console.aws.amazon.com/cloudwatch/](https://console.aws.amazon.com/cloudwatch).
 2. In the left navigation pane, choose <b>Metrics → Streams</b>.
