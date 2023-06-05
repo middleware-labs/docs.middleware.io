@@ -3,9 +3,9 @@
 1. Sign in to the AWS Management Console and open the Kinesis console at [https://console.aws.amazon.com/kinesis](https://console.aws.amazon.com/kinesis).
 2. Choose <b>Data Firehose</b> in the navigation panel.
 3. Choose <b>Create delivery stream</b>.
-4. The stream’s Source should be <b>Direct PUT</b> and Destination set to <b>HTTP Endpoint</b> with the following details:<br/>
-   <b>Kinesis endpoint:</b> https://{ACCOUNT-UID}.middleware.io/v1/metrics/cloudwatch <br/>
-   <b>API Key:</b> Enter your Middleware API key {ACCOUNT_KEY}.
+4. The stream’s Source should be <b>Direct PUT</b> and Destination set to <b>HTTP Endpoint</b> with the following details:
+    - <b>Kinesis endpoint:</b> https://{ACCOUNT-UID}.middleware.io/v1/metrics/cloudwatch
+    - <b>API Key:</b> Enter your Middleware API key {ACCOUNT_KEY}.  
 5. In the Backup settings, select an S3 backup bucket to receive any failed events that exceed the retry duration.
 
 
