@@ -10,8 +10,8 @@ Configure CloudWatch using the AWS Console :
 2. Choose **Data Firehose** in the navigation panel.
 3. Choose **Create delivery stream**.
 4. The stream’s Source should be **Direct PUT** and Destination set to **HTTP Endpoint** with the following details:
-    **Kinesis endpoint:** https://`{ACCOUNT-UID}`.middleware.io/v1/metrics/cloudwatch<br/>
-    **API Key:** Enter your Middleware API key.
+    - **Kinesis endpoint:** https://`{ACCOUNT-UID}`.middleware.io/v1/metrics/cloudwatch
+    - **API Key:** Enter your Middleware API key `{ACCOUNT_KEY}`.
 5. In the Backup settings, select an S3 backup bucket to receive any failed events that exceed the retry duration.
 
 *Replace `{ACCOUNT-UID}` with the text in the URL (ex URL is "s05zpimz.middleware.io" , here s05zpimz is `{ACCOUNT-UID}`.)*
